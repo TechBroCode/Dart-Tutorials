@@ -5,6 +5,6 @@ void main(List<String> arguments) {
   try {
     print('Hello world: ${dart_application_1.calculate()}!');
   } catch (e) {
-    print(" ${e.toString()}");
+    print("Error: ${e.toString()}");
   }
 }
